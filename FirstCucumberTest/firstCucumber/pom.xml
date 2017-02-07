@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Practice1</groupId>
+  <artifactId>Practice1</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Practicing</name>
+
+<repositories>
+   <repository>
+              <id>artifactory.homedepot.com</id>
+              <name>artifactory.homedepot.com-releases</name>
+              <url>http://artifactory.homedepot.com/libs-release-local</url>
+       </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+       <groupId>com.homedepot.sa.el</groupId>
+       <artifactId>homer_automation_framework</artifactId>
+       <version>3.0</version>
+    </dependency>
+
+    <!--dependency> 
+        <groupId>com.teradata</groupId> 
+        <artifactId>terajdbc4</artifactId> 
+        <version>14.00.00.21</version> 
+        <scope>system</scope> 
+              <systemPath>${basedir}/lib/terajdbc4.jar</systemPath>
+    </dependency>
+    
+    <dependency> 
+        <groupId>com.teradata.jdbc</groupId> 
+        <artifactId>tdgssconfig</artifactId> 
+        <version>14.00.00.21</version> 
+    </dependency-->
+    
+    <!-- dependency> 
+        <groupId>com.homedepot.sa.el</groupId> 
+        <artifactId>ojdbc6</artifactId> 
+        <version>11.2.0.2.0</version> 
+    </dependency-->
+    
+    <dependency> 
+        <groupId>com.homedepot.sa.el</groupId> 
+        <artifactId>terajdbc4</artifactId> 
+        <version>14.00.00.21</version> 
+    </dependency>
+    
+      
+    <dependency> 
+        <groupId>com.homedepot.sa.el</groupId> 
+        <artifactId>tdgssconfig</artifactId> 
+        <version>14.00.00.21</version> 
+         <!-- scope>system</scopeee> 
+        <systemPath>${basedir}/tdgssconfig.jar</systemPath-->
+    </dependency>
+    
+      <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+     </dependency>    
+    
+
+</dependencies>
+</project>
